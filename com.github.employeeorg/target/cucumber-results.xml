@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="34.716426">
+<testcase classname="Automating a public API holding Employee Details" name="Validate whether user is able to fetch single employee details" time="8.359705">
+<system-out><![CDATA[Given User has access to all employee details...............................passed
+When User fetches the single record.........................................passed
+Then employee details shoud be retrieved succesfully........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automating a public API holding Employee Details" name="Validate whether user is able to create a new employee record" time="12.542391">
+<system-out><![CDATA[Given User has access to all employee details...............................passed
+When User creates a new employee record in database.........................passed
+Then employee details should be saved successfully..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automating a public API holding Employee Details" name="Validate whether user is able to update the new employee record" time="6.896028">
+<system-out><![CDATA[Given User has access to all employee details...............................passed
+When user updates the details of the employee...............................passed
+Then employee details shoud be saved succesfully............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automating a public API holding Employee Details" name="Validate whether user is able to delete the created employee record" time="6.918302">
+<system-out><![CDATA[Given User has access to all employee details...............................passed
+When user delete the existing employee......................................passed
+Then employee details should be deleted successfully........................passed
+]]></system-out>
+</testcase>
+</testsuite>

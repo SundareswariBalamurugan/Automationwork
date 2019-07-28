@@ -1,0 +1,37 @@
+Feature: Automating a public API holding Employee Details
+
+  #Automating a Public API using Jersey RESTful web Services in java
+  Background:                                     [90m# features/EmployeeDetails.feature:4[0m
+    [32mGiven [0m[32mUser has access to all employee details[0m [90m# EmployeeDetailsStepDef.user_has_access_to_all_employee_details()[0m
+
+  @fetch @crud
+  Scenario: Validate whether user is able to fetch single employee details [90m# features/EmployeeDetails.feature:8[0m
+    [32mWhen [0m[32mUser fetches the single record[0m                                    [90m# EmployeeDetailsStepDef.user_fetches_the_single_record()[0m
+    [32mThen [0m[32memployee details shoud be retrieved succesfully[0m                   [90m# EmployeeDetailsStepDef.employee_details_shoud_be_retrieved_succesfully()[0m
+
+  #Automating a Public API using Jersey RESTful web Services in java
+  Background:                                     [90m# features/EmployeeDetails.feature:4[0m
+    [32mGiven [0m[32mUser has access to all employee details[0m [90m# EmployeeDetailsStepDef.user_has_access_to_all_employee_details()[0m
+
+  @Create @crud
+  Scenario: Validate whether user is able to create a new employee record [90m# features/EmployeeDetails.feature:13[0m
+    [32mWhen [0m[32mUser creates a new employee record in database[0m                   [90m# EmployeeDetailsStepDef.user_creates_a_new_employee_record_in_database(DataTable)[0m
+    [32mThen [0m[32memployee details should be saved successfully[0m                    [90m# EmployeeDetailsStepDef.employee_details_should_be_saved_successfully()[0m
+
+  #Automating a Public API using Jersey RESTful web Services in java
+  Background:                                     [90m# features/EmployeeDetails.feature:4[0m
+    [32mGiven [0m[32mUser has access to all employee details[0m [90m# EmployeeDetailsStepDef.user_has_access_to_all_employee_details()[0m
+
+  @update @crud
+  Scenario: Validate whether user is able to update the new employee record [90m# features/EmployeeDetails.feature:20[0m
+    [32mWhen [0m[32muser updates the details of the employee[0m                           [90m# EmployeeDetailsStepDef.user_updates_the_details_of_the_employee()[0m
+    [32mThen [0m[32memployee details shoud be saved succesfully[0m                        [90m# EmployeeDetailsStepDef.employee_details_shoud_be_saved_succesfully()[0m
+
+  #Automating a Public API using Jersey RESTful web Services in java
+  Background:                                     [90m# features/EmployeeDetails.feature:4[0m
+    [32mGiven [0m[32mUser has access to all employee details[0m [90m# EmployeeDetailsStepDef.user_has_access_to_all_employee_details()[0m
+
+  @delete @crud
+  Scenario: Validate whether user is able to delete the created employee record [90m# features/EmployeeDetails.feature:25[0m
+    [32mWhen [0m[32muser delete the existing employee[0m                                      [90m# EmployeeDetailsStepDef.user_delete_the_existing_employee()[0m
+    [32mThen [0m[32memployee details should be deleted successfully[0m                        [90m# EmployeeDetailsStepDef.employee_details_should_be_deleted_successfully()[0m

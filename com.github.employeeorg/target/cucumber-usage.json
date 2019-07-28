@@ -1,0 +1,176 @@
+[
+  {
+    "source": "^User fetches the single record$",
+    "steps": [
+      {
+        "name": "User fetches the single record",
+        "aggregatedDurations": {
+          "average": 0.9189533,
+          "median": 0.9189533
+        },
+        "durations": [
+          {
+            "duration": 0.9189533,
+            "location": "features/EmployeeDetails.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^employee details shoud be retrieved succesfully$",
+    "steps": [
+      {
+        "name": "employee details shoud be retrieved succesfully",
+        "aggregatedDurations": {
+          "average": 0.0832694,
+          "median": 0.0832694
+        },
+        "durations": [
+          {
+            "duration": 0.0832694,
+            "location": "features/EmployeeDetails.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User creates a new employee record in database$",
+    "steps": [
+      {
+        "name": "User creates a new employee record in database",
+        "aggregatedDurations": {
+          "average": 1.065181,
+          "median": 1.065181
+        },
+        "durations": [
+          {
+            "duration": 1.065181,
+            "location": "features/EmployeeDetails.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^employee details shoud be saved succesfully$",
+    "steps": [
+      {
+        "name": "employee details shoud be saved succesfully",
+        "aggregatedDurations": {
+          "average": 0.0069744,
+          "median": 0.0069744
+        },
+        "durations": [
+          {
+            "duration": 0.0069744,
+            "location": "features/EmployeeDetails.feature:22"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^employee details should be saved successfully$",
+    "steps": [
+      {
+        "name": "employee details should be saved successfully",
+        "aggregatedDurations": {
+          "average": 5.5704243,
+          "median": 5.5704243
+        },
+        "durations": [
+          {
+            "duration": 5.5704243,
+            "location": "features/EmployeeDetails.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User has access to all employee details$",
+    "steps": [
+      {
+        "name": "User has access to all employee details",
+        "aggregatedDurations": {
+          "average": 6.28756495,
+          "median": 5.94299575
+        },
+        "durations": [
+          {
+            "duration": 7.3574824,
+            "location": "features/EmployeeDetails.feature:5"
+          },
+          {
+            "duration": 5.9067859,
+            "location": "features/EmployeeDetails.feature:5"
+          },
+          {
+            "duration": 5.9217143,
+            "location": "features/EmployeeDetails.feature:5"
+          },
+          {
+            "duration": 5.9642772,
+            "location": "features/EmployeeDetails.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user delete the existing employee$",
+    "steps": [
+      {
+        "name": "user delete the existing employee",
+        "aggregatedDurations": {
+          "average": 0.9538568,
+          "median": 0.9538568
+        },
+        "durations": [
+          {
+            "duration": 0.9538568,
+            "location": "features/EmployeeDetails.feature:26"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user updates the details of the employee$",
+    "steps": [
+      {
+        "name": "user updates the details of the employee",
+        "aggregatedDurations": {
+          "average": 0.9673391,
+          "median": 0.9673391
+        },
+        "durations": [
+          {
+            "duration": 0.9673391,
+            "location": "features/EmployeeDetails.feature:21"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^employee details should be deleted successfully$",
+    "steps": [
+      {
+        "name": "employee details should be deleted successfully",
+        "aggregatedDurations": {
+          "average": 0.0001681,
+          "median": 0.0001681
+        },
+        "durations": [
+          {
+            "duration": 0.0001681,
+            "location": "features/EmployeeDetails.feature:27"
+          }
+        ]
+      }
+    ]
+  }
+]
