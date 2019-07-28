@@ -3,7 +3,7 @@
 
 What it is?
 This project is used for perfoming create,read,update and delete of employee details
-in a public API 
+in a public API http://dummy.restapiexample.com/
 
 In this we have used HTPP methods for accessing the employee details server and used Jersey Rest Framework
 
