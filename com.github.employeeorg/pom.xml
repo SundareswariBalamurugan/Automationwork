@@ -20,7 +20,7 @@
 		<!--Cucumber reports -->
 		<cucumber-core.version>1.2.4</cucumber-core.version>
 		<cucumber-java.version>1.2.4</cucumber-java.version>
-		<junit.version>4.12</junit.version>
+		<junit.version>4.13.1</junit.version>
 		<testng.version>6.11</testng.version>
 		<cucumber_junit>1.2.2</cucumber_junit>
 		<cucumber-reports.version>1.0.6</cucumber-reports.version>
