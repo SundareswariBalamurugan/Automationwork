@@ -32,7 +32,7 @@
 		<Extentreport>3.1.2</Extentreport>
 
 		<!-- Excel File -->
-		<apache.poi.version>3.14</apache.poi.version>
+		<apache.poi.version>3.17</apache.poi.version>
 		<apache.poi-ooxml.version>3.14</apache.poi-ooxml.version>
 		<apache.poi-ooxml-schemas.version>3.14</apache.poi-ooxml-schemas.version>
 
